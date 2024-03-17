@@ -1,30 +1,70 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
     background-color: #0C70F2;
     color: white;
-    white-space: nowrap;
-    height: 50px;
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr;
-    align-items: center;
-    padding: 10px;
+    justify-content: center;
+    padding-bottom: 3%;
 
+    h1{
+        height: 60px;
+        padding-top: 20px;
+    }
     input{
+        width: 100%;
+        border: none;
         background-color: #0C70F2;
         color: white;
-        border: none;
-        font-size: 1.6vw;
-        height: 100%;
-        border-radius: 9px;
-        cursor: pointer;
+        padding: 6px;     
     }
-    input:hover{
+}
+section{
+    background-color: #F2F2F2;
+    
+    
+}
+
+.section_busca{
+
+    h2{
+        text-align: center;
+        font-size: 3vh;
+        padding-top: 10%;
+    }
+    img{
+        width: 60%;
+        padding-left: 20%;
+        padding-right: 20%;
+
+    }
+    div{
         background-color: white;
-        color: #0C70F2;
+        width: 66%;
+        margin: 10% 10% 0% 10%;
+        padding: 5% 7% 5% 7%;
+        border-radius: 30px;
+        height: 385px;
+
+       input{
+        border: none;
+        border-radius: 10px;
+        height: 8%;
+        margin: 10px 0px 10px 0px;
+        background-color: #F2F2F2;
+        width: 95%;
+        padding-left: 5%;
+       }
+        
+    }
+    #btnSectionP{
+        background-color: #0C70F2;
+        width: 50%;
+        margin: 0% 25% 0% 25%;
+        color: white;
     }
 }
