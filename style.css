@@ -85,6 +85,10 @@ body{
         list-style-type: none;
         display: flex;
         justify-content: space-between;
+
+        li{
+            width: 33%;
+        }
         
     }
 
@@ -112,9 +116,13 @@ body{
         display: flex;
         justify-content: space-between;
 
-        input{
+        .inps{
             border: none;
             width: 33%;
+            
+        }
+        #logradouro{
+            font-size: 1vh;
         }
 
         #bairro{
