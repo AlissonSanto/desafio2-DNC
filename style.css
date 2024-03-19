@@ -120,20 +120,20 @@ body {
         .inps {
             border: none;
             width: 33%;
+            font-size: 1.5vh;
+
 
         }
 
-        #logradouro {
-            font-size: 1vh;
-        }
 
         #bairro {
             text-align: center;
-            padding-left: 10;
+            padding-left: 5%;
         }
 
         #uf {
             text-align: end;
+            padding-right: 8%;
         }
     }
 

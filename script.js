@@ -15,10 +15,8 @@ async function pegarCep() {
         console.log(error.message)
     }
 
-
     const lat = document.getElementById("lat").value
     const log = document.getElementById("log").value
-
 
     try {
         const response = await fetch(
