@@ -25,7 +25,7 @@ header {
     }
 }
 
-body{
+body {
     background-color: #F2F2F2;
 
 }
@@ -86,10 +86,10 @@ body{
         display: flex;
         justify-content: space-between;
 
-        li{
+        li {
             width: 33%;
         }
-        
+
     }
 
     h1 {
@@ -105,7 +105,8 @@ body{
         padding: 3% 5% 3% 5%;
         color: white;
     }
-    #result{
+
+    #result {
         background-color: white;
         border-radius: 0px 0px 10px 10px;
         width: 80%;
@@ -116,27 +117,29 @@ body{
         display: flex;
         justify-content: space-between;
 
-        .inps{
+        .inps {
             border: none;
             width: 33%;
-            
+
         }
-        #logradouro{
+
+        #logradouro {
             font-size: 1vh;
         }
 
-        #bairro{
+        #bairro {
             text-align: center;
             padding-left: 10;
         }
-        #uf{
+
+        #uf {
             text-align: end;
         }
     }
 
 }
 
-.section_resultado_temp{
+.section_resultado_temp {
     padding-top: 10%;
     text-align: center;
     text-decoration: none;
@@ -145,20 +148,33 @@ body{
         font-size: 2.5vh;
     }
 
-    pre{
+    #temp {
         background-color: white;
         width: 80%;
         border: 1px solid #0C70F2;
         border-radius: 10px;
         margin: 3% 10% 10% 10%;
         height: 30px;
-        padding-top: 2%;
         font-size: 2vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        font-size: 1.5vh;
        
+        
+    }
+
+    input {
+        width: 10%;
+        height: 100%;
+        border-radius: 5px;
+        border: none;
+        
+        
     }
 }
 
-footer{
+footer {
     background-color: #0C70F2;
     height: 30px;
     display: flex;

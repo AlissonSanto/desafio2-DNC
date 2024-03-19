@@ -31,11 +31,11 @@
             <input type="number" id="cep" placeholder="insira o CEP"><br>
 
             <label for="coordenada">Digite a latitude e longitude para saber a previsão:</label><br>
-            <input type="number" id="coordenada" placeholder="Latitude"><br>
-            <input type="number" id="coordenada" placeholder="Longitude"><br>
+            <input type="number" id="lat" placeholder="Latitude"><br>
+            <input type="number" id="log" placeholder="Longitude"><br>
 
 
-            <button type="button" id="btnSectionP" onclick="getAddressByCep()">Acessar</button>
+            <button type="button" id="btnSectionP" onclick="pegarCep()">Acessar</button>
 
         </div>
     </section>
@@ -62,7 +62,11 @@
     <section class="section_resultado_temp">
         <h1>Previsão do tempo na região:</h1>
         <img src="./img/cloud.svg" alt="erro">
-        <pre>Nenhuma coordenada declarada</pre>
+        <div id="temp">
+
+            <p>Previsão de tempo de acordo com a região: <input type="text" id="temperatura" readonly></p>
+
+        </div>
         
     </section>
 
