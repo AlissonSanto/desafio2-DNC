@@ -27,7 +27,6 @@ async function pegarCep() {
         
         document.getElementById('temperatura').value = data.current.temperature_2m;
 
-
     } catch (error) {
         console.log(error.message)
     }
